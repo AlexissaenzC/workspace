@@ -14,6 +14,7 @@ def Menu():
     6. Asignar bus al conductor.
     7. Salir. 
     '''
+    conductor_lis = []
     
     while True:
         print(msg)
@@ -26,7 +27,7 @@ def Menu():
             case 3:
                 pass
             case 4:
-                pass
+                agregar_conductor(conductor_lis)
             case 5:
                 pass
             case 6:
